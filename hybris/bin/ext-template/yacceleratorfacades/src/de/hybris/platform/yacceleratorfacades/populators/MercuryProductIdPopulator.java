@@ -22,9 +22,9 @@ public class MercuryProductIdPopulator
 	{
 		//super.populate(source, target);
 
-		if (source.getValues().get("mercuryId_int") != null)
+		if (source.getValues().get("mercuryId") != null)
 		{
-			final Integer mercuryId = (Integer) source.getValues().get("mercuryId_int");
+			final Integer mercuryId = (Integer) source.getValues().get("mercuryId");
 			target.setMercuryId(mercuryId.intValue());
 		}
 
