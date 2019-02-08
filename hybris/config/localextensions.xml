@@ -48,5 +48,6 @@
     <extension name='promotionengineatddtests' />
     <extension name='commercesearchatddtests' />
     <extension name='textfieldconfiguratortemplateatddtests' /> -->
+    <extension name="promotionenginetrail"/>
   </extensions>
 </hybrisconfig>
